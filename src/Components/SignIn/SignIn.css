@@ -1,0 +1,68 @@
+/* css fot form input */
+.signup-input:active{
+    border-color: #fe3638 !important;
+    box-shadow: none !important;
+}
+.signup-forgot{
+    transition: color .25s ease-in-out;
+    color: #fe696a;
+    text-decoration: none !important;   
+}
+.signup-forgot{
+    color: #fe3638;
+    text-decoration: none !important;
+}
+.compare-btn-signup:hover, .compare-btn-signup:active, .compare-btn-signup:focus, .compare-btn-signup.active, .compare-btn-signup.show {
+    border-color: #fe3638;
+    background-color: #fe3638;
+    box-shadow: none !important;
+}
+.compare-btn-signup{
+    box-shadow: 0 0.5rem 1.125rem -0.5rem rgb(254 105 106 / 90%);
+    background-color: #fe696a;
+    border-color: #fe696a;
+    box-shadow: unset !important;
+}
+.form-check-input:checked {
+    border-color: #fe3638;
+    background-color: #fe3638;
+}
+.Modal-signin-up, .nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link{
+    color:#fe696a;
+}
+.Modal-signin-up,.nav-link{
+    color:#000;
+}
+.Modal-signin-up,.nav-link:hover{
+    color:#000000;
+}
+/* tabs */
+#uncontrolled-tab-example-tab-Signin,#uncontrolled-tab-example-tab-Signup{
+    padding:15px !important;
+    font-weight: bold;
+    cursor: pointer;
+}
+.Sign-up-modal,.Sign-in-modal{
+    margin-top:-10px !important;
+}
+.Sign-in-modal,.Sign-up-modal,.form-label{
+    font-weight: 500 !important;
+}
+/* close btn */
+.modalsingin-up-close .btn-close{
+    position: absolute;
+    right: 7px;
+    font-size: 10px;
+    top: 8px;
+    padding: 10px;
+}
+.modalsingin-up-close .btn-close:focus{
+    box-shadow: none !important;
+}
+/* error msg */
+.text-errormsg{
+    color:#fe696a !important;
+    font-size: 12px;
+    text-transform: capitalize;
+}
+

@@ -1,0 +1,36 @@
+.compare td{
+    text-align: center;
+    vertical-align: middle;
+
+}
+.compare a{
+    text-decoration: none;
+}
+
+@keyframes shine {
+    to {
+        background-position: 100% 0;
+    }
+}
+ .skeleton-compare-span p , .skeleton-compare  .skeleton-compare-img{
+    max-width: 100%;
+    background: linear-gradient(to right,
+            rgba(255, 255, 255, 0),
+            rgba(255, 255, 255, 0.5) 50%,
+            rgba(255, 255, 255, 0) 80%),
+        #efecec;
+    background-repeat: repeat-y;
+    background-size: 50px 500px;
+    background-position: 0 0;
+    animation: shine 1s infinite;
+}
+ .skeleton-compare-span p{
+    height: 12px;
+    width: 92%;
+    font-size: 0.8rem;
+    margin: 0px 4% 0px 4%;
+}
+
+.skeleton-compare  .skeleton-compare-img{
+    height: 100px;
+}

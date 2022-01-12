@@ -1,0 +1,99 @@
+/* Banner CSS Start */
+.search-bar {
+    padding: 9px 10px 9px 32px;
+    /* width: 55px; */
+    background: #c7c0c066 url(https://static.tumblr.com/ftv85bp/MIXmud4tx/search-icon.png) no-repeat 10px center;
+    border: solid 2px #ccc;
+    border-radius: 7px;
+    transition: all .5s;
+    /* background: #b9b1b138; */
+}
+
+.search-bar:focus {
+  box-shadow: none !important;
+  background-color: #fff;
+}
+.Offers-Banner {
+    background-color: #537895;
+    background-image: linear-gradient(315deg, #537895 0%, #09203f 74%);
+    padding: 6rem 0;
+}
+
+.banner-home .card-align-pro {
+    text-align: left !important;
+}
+
+.banner-home .cardbox-for-bg {
+    background-color: #fbe9e78a;
+}
+
+
+/* Banner CSS Completed */
+.Offers-Banner .Limited-Offer-tag {
+    display: inline-block;
+    padding: 0.25em 0.625em;
+    font-size: 0.75em;
+    font-weight: normal;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 0.175rem;
+}
+
+.Offers-Banner button {
+    color: #09203f;
+    background-color: #f2f2f2;
+    border-color: #4e54c8;
+    box-shadow: unset;
+}
+
+.Offers-Banner .fa {
+    font-size: 23px;
+}
+
+
+
+/* Skleton css of product cards */
+.Skeleton-products .skel1div, .Skeleton-products h2, .Skeleton-products h3,
+.Skeleton-products h1, .Skeleton-bestseller .selskeldiv1, .Skeleton-bestseller h2, .Skeleton-bestseller h3 {
+    background: linear-gradient(to right, #ffffff00, #ffffff80 50%, #ffffff00 80%), #efecec;
+    background-repeat: repeat-y;
+    background-size: 50px 500px;
+    background-position: 0 0;
+    animation: shine 1s infinite;
+}
+
+@keyframes shine {
+    to {
+        background-position: 100% 0;
+    }
+}
+
+.Skeleton-products .skel1div {
+    height: 150px;
+    width: 100%;
+}
+
+.Skeleton-products h2, .Skeleton-products h3 {
+    height: 15px;
+    width: 190px;
+}
+
+.Skeleton-products h1 {
+    border-radius: 10px;
+    height: 40px;
+    width: 100%;
+}
+
+/* Skleton css of Best Seller */
+.Skeleton-bestseller .selskeldiv1 {
+    height: 50px;
+    width: 20%;
+}
+
+.Skeleton-bestseller h2, .Skeleton-bestseller h3 {
+    height: 15px;
+    width: 100px;
+}
