@@ -1,38 +1,157 @@
-.App {
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Rubik", sans-serif;
+  letter-spacing: 0.7px;
+}
+.nav-container{
+  margin-top: 90px;
+  background-color: #537895;
+  background-image: linear-gradient(315deg, #537895 0%, #09203f 74%);
+}
+#loader {
+  overflow-y: hidden;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  background: url('./assets/images/loader.gif') 50% 50% no-repeat rgb(255, 255, 255);
+  /* opacity: .9; */
+}
+.bg-indigo{
+  background-color: indigo;
+}
+.bg-faded-orange {
+  background-color: #fe696a17 !important;
+}
+.bg-faded-indigo {
+  background-color: #4e54c817 !important;
+}
+
+.bg-faded-green {
+  background-color: #42d69717 !important;
+}
+
+.text-orange {
+  color: #ff5722;
+}
+
+.text-indigo {
+  color: #4e54c8 !important;
+}
+
+.text-green {
+  color: #42d697;
+}
+
+hr{
+  background-color: grey !important;
+  height: 0.1px !important;
+}
+/* Button1 */
+.btn-check:focus + .btn, .btn:focus { 
+  box-shadow: none !important;
+}
+.Button-Red-Border{
+  color: #fe696a !important;
+  border-color: #fe696a !important; 
+  font-weight: 400;
+}
+.Button-Red-Border:hover{
+  color: white !important;
+  border-color: #fe696a !important;
+  background-color: #fe696a !important;
+}
+/* Button2 */
+.Button-Full-Red {
+  border:none;
+  opacity: 0.9;
+  background-color: #fe3638;
+  color: white;
+  padding: 10px 25px;
+  border-radius: 7px;
+  box-shadow: 0 0.5rem 1.125rem -0.5rem rgb(254 105 106 / 90%);
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Button-Full-Red:hover{
+  color: white !important;
+  opacity: 1;
+  box-shadow: none;
+}
+/* Button3 */
+.Button-Blue-Border{
+  color: #4e54c8 !important;
+    border-color: #4e54c8 !important;
+  font-weight: 400;
+}
+.Button-Blue-Border:hover{
+    color: #fff !important;
+    background-color: #4e54c8;
+    border-color: #4e54c8;
+}
+/* Button gray */
+.btn-Gray{
+  text-align: center;
+  color: #000;
+  padding: 10px 25px;
+  background-color: #f3f5f9;
+  box-shadow: unset;
+  border-color: #e3e9ef !important;
+  border-radius: 5px;
+  border: 1px;
+}
+.btn-Gray:hover{
+color: #000 !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.text-red{
+  color: #fe696a !important;
+}
+.form-select:focus , .form-check-input:focus ,.form-control:focus{
+  outline: 0;
+  border-color: #274462 !important;
+  box-shadow: none !important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+/* Alert */
+.swal-overlay--show-modal .swal-modal {
   color: white;
+
+}
+.swal-modal {
+  color: white !important;
+  width: 315px;
+  height: 60px;
+  background-color: #fe4a4c !important;
+  /* position: static; */
+  margin: 20px auto 70px;
+  vertical-align: bottom;
+}
+.swal-title {
+  color: #fff;
+  font-weight: 600;
+  position: relative;
+  display: block;
+  padding: 0px 0px;
+  font-size: 20px;
+  margin-bottom: 0;
+}
+.swal-title:first-child {
+  margin-top: 14px;
+}
+.swal-title:not(:last-child) {
+  margin-bottom: 13px;
+}
+.swal-footer {
+  display: none;
+}
+.swal-overlay {
+   background-color: transparent;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.dropdown:hover .dropdown-menu {
+  display: block !important;
+  margin-top: 0 !important; 
 }
