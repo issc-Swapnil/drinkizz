@@ -116,7 +116,7 @@
 }
 
 .product-actionadd ,.pro-compare .btn-compare{
-    display: none;
+    display: block;
 }
 
 .product-card:hover .product-actionadd , .product-card:hover .pro-compare .btn-compare {

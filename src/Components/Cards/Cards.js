@@ -112,9 +112,8 @@ const Cards = React.memo((props) => {
 
         <div className='card product-card mt-3 mb-3'>
             <div className='pro-compare d-flex align-items-center'>
-                <span className='btn-compare me-2' onClick={handleCompare}>
-                    <i className="fa fa-refresh px-1"></i>Compare</span>
-                <button onClick={handleWishlist} data-toggle="tooltip" data-placement="top" title="Hooray!" className='btn-wishlist btn-sm'><i className="fa fa-heart-o" aria-hidden="true"></i></button>
+                <button onClick={handleCompare} data-toggle="tooltip" data-placement="top" title="Add To Compare" className='btn-wishlist btn-sm'><i className="fa fa-refresh px-1" aria-hidden="true"></i></button>
+                <button onClick={handleWishlist} data-toggle="tooltip" data-placement="top" title="Add To Wishlist" className='btn-wishlist btn-sm'><i className="fa fa-heart-o" aria-hidden="true"></i></button>
             </div>
             <div className='product-img mt-3'>
                 <Link to={`/product-details/` + props.id} className='text-center card-img-top d-block overflow-hidden'>
