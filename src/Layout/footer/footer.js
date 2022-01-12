@@ -8,21 +8,12 @@ const Footer = () => {
             <div className="footer-top">
                 <section className="container-fluid px-0">
                     <div className="row g-0">
-                        <div className="col-md-6">
-                            <Link className="card border-0 rounded-0 text-decoration-none py-md-4 bg-faded-orange" to="/">
-                                <div className="card-body text-center">
-                                    <i className="text-orange fa fa-edit mb-2"></i>
-                                    <h3 className="h5 mb-1 text-dark">Read Our blog</h3>
-                                    <p className="text-muted fs-sm">Latest products</p>
-                                </div>
-                            </Link>
-                        </div>
-                        <div className="col-md-6">
+                        <div className="col-md-12">
                             <Link to="/" className="card border-0 rounded-0 text-decoration-none py-md-4 bg-faded-indigo">
                                 <div className="card-body text-center">
                                     <i className="text-indigo fa fa-instagram mb-2"></i>
                                     <h3 className="h5 mb-1 text-dark">Follow on Instagram</h3>
-                                    <p className="text-muted fs-sm">#OrderWithDrinkizz</p>
+                                    <p className="text-muted fs-sm">#OrderWithDrinkiz</p>
                                 </div>
                             </Link>
                         </div>

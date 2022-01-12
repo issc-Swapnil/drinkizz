@@ -34,7 +34,7 @@ const SignIn = () => {
                 })
             } else if (res.status === 200) {
                 swal({
-                    title: "Welcome to Daruwale!",
+                    title: "Welcome to Drinkiz!",
                     timer: 2000
                 })
                 reset();
